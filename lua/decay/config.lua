@@ -101,7 +101,7 @@ M.highlights_base = function(colors, opts)
 		["@punctuation.bracket"] = { fg = colors.brightblack }, -- For brackets and parenthesis.
 		["@punctuation.special"] = { fg = colors.cyan }, -- For special punctutation that does not fall in the catagories before.
 		-- Literals
-		["@string"] = { fg = colors.green }, -- For strings.
+		["@string"] = { fg = colors.brightyellow }, -- For strings.
 		["@string.regex"] = { fg = colors.yellow }, -- For regexes.
 		["@string.escape"] = { fg = colors.yellow }, -- For escape characters within a string.
 		["@string.special"] = { fg = colors.green }, -- other special strings (e.g. dates)
